@@ -28,7 +28,6 @@ cc_library_shared {
 
     srcs: [
         "src/agm.c",
-        "src/agm_memlogger.c",
         "src/device.c",
         "src/device_hw_ep.c",
         "src/graph.c",
@@ -46,7 +45,6 @@ cc_library_shared {
 
     header_libs: [
         "libacdb_headers",
-        "libarmemlog_headers",
         "libspf-headers",
         "libutils_headers",
     ],
@@ -54,7 +52,6 @@ cc_library_shared {
     shared_libs: [
         "libar-gsl",
         "libats",
-        "libarmemlog",
         "libaudioroute",
         "libcutils",
         "liblog",
